@@ -19,11 +19,6 @@ module.exports = {
         '@typescript-eslint/no-namespace': 'off',
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'vue/max-attributes-per-line': ['error', {
-            singleline: {
-                max: 5
-            },
-        }],
         'vue/singleline-html-element-content-newline': 'off'
     },
 
